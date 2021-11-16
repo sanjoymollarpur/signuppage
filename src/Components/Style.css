@@ -1,0 +1,35 @@
+.btn1{
+    color: aliceblue;
+    margin: 10px;
+}
+a{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+.con{
+    
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.con1{
+    width: 80%;
+    margin-left: 500px;
+   
+}
+.con-mat{
+    margin-top: 10px;
+    background-color: rgb(178, 204, 178);
+    padding: 10px;
+    border-radius: 4px;
+}
+@media screen and (max-width:768px){
+    .con1{
+        width: 100%;
+    }
+    .con{
+        display: block;
+    }
+}
